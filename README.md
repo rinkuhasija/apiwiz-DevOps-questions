@@ -124,6 +124,31 @@
             docker logs --tail 50 CONTAINER_NAME_OR_ID
             docker logs -f CONTAINER_NAME_OR_ID
 
+3. # Kubernetes:
+
+
+	1. ##  What are different types of services?
+
+    -> 
+    
+        In Kubernetes, services are used to expose applications running within a cluster to other applications, both within and outside of the cluster. There are several types of services in Kubernetes, each designed for different use cases and network configurations. Here are the most common types of services in Kubernetes:
+
+
+	2. ## What is a pod? 
+    ->
+
+        In Kubernetes, a pod is the smallest deployable unit that can hold one or more containers. Pods are the basic building blocks of applications and services within a Kubernetes cluster. Each pod represents a single instance of a running process in a cluster and encapsulates one or more containers that share the same network namespace, storage volumes, and other resources.
+
+
+	3. ## Create a pod with the above created custom image when a pod dies k8s should automatically restart
+
+    ->
+
+        
+	4. ## How to access the custom application with a specific port?
+    ->
+
+        
 
 
 
